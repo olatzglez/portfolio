@@ -12,8 +12,7 @@ export default function Contact() {
               ¿Hablamos?
             </h2>
             <p className={styles.subtitle}>
-              Estoy buscando mi primera oportunidad profesional. Si tienes un proyecto
-              interesante o una oferta, escríbeme — respondo siempre.
+              Si tienes un proyecto interesante o una oferta, escríbeme.
             </p>
           </header>
 

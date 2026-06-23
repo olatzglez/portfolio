@@ -154,7 +154,7 @@
 /* Responsive */
 @media (max-width: 600px) {
   .inner {
-    gap: var(--sp-5);
+    gap: var(--sp-8);
   }
 
   .taglineBr {
