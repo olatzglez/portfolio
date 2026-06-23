@@ -45,7 +45,7 @@ export default function Navbar({ darkMode, onToggleDark }) {
         aria-label="Navegación principal"
       >
         <a href="#inicio" className={styles.logo} aria-label="Olatz González – ir al inicio">
-          OG
+          <img src="/logo.jpg" alt="" width="32" height="32" />
         </a>
 
         <ul className={styles.navList} role="list">
