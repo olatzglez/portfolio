@@ -1,4 +1,4 @@
-import { IconCode, IconDocument } from '../Icons'
+import { IconGitHub, IconDocument } from '../Icons'
 import styles from './ProjectCard.module.css'
 
 export default function ProjectCard({ project }) {
@@ -8,9 +8,7 @@ export default function ProjectCard({ project }) {
     <article className={styles.card} aria-label={`Proyecto: ${title}`}>
       <div className={styles.body}>
         <div className={styles.top}>
-          <div className={styles.meta}>
-            <span className={styles.teamLabel}>{team}</span>
-          </div>
+          <span className={styles.teamLabel}>{team}</span>
           {badge && (
             <span className={styles.badge} aria-label={`Estado: ${badge}`}>
               {badge}
@@ -38,7 +36,7 @@ export default function ProjectCard({ project }) {
             className="btn btn-outline"
             aria-label={`Ver proyecto ${title} en GitHub (se abre en nueva pestaña)`}
           >
-            <IconCode />
+            <IconGitHub size={18} />
             Ver proyecto en GitHub
           </a>
 
