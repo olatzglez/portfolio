@@ -35,6 +35,7 @@ body {
 /* === SECCIONES BASE === */
 .section {
   padding: var(--sp-24) var(--sp-6);
+  min-height: 66dvh;
 }
 
 .section-alt {

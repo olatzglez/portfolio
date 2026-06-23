@@ -16,7 +16,6 @@ export const projects = [
     id: 'isworking',
     title: 'IsWorking',
     team: 'Proyecto de equipo · Proyecto final bootcamp',
-    role: 'Mi rol: [RELLENAR]',
     tagline:
       'Sistema de control de jornada laboral con geolocalización, roles y auditoría para empresas.',
     stack: ['React', 'Vite', 'Node.js', 'Express', 'PostgreSQL', 'MongoDB', 'JWT', 'Docker'],
@@ -29,9 +28,8 @@ export const projects = [
   {
     id: 'sustraiapp',
     title: 'SustraiApp',
-    team: 'Proyecto de equipo · Desafío Inetum · BBK Bootcamps 2026',
-    role: 'Mi rol: [RELLENAR]',
-    badge: 'En desarrollo',
+    team: 'Proyecto de equipo · Inetum',
+    badge: 'Desafío Final',
     tagline:
       'App para descubrir lugares, eventos y gastronomía del País Vasco con datos abiertos de GEO-EUSKADI.',
     stack: ['Node.js', 'Express', 'Sequelize', 'PostgreSQL', 'JWT', 'React', 'Vite', 'Docker'],
