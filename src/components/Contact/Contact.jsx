@@ -18,7 +18,7 @@ export default function Contact() {
 
           <div className={styles.links}>
             <a
-              href="olatzglez@gmail.com"
+              href="mailto:olatzglez@gmail.com"
               className={styles.contactLink}
               aria-label="Enviar email a Olatz González"
             >
@@ -49,7 +49,7 @@ export default function Contact() {
           </div>
 
           <a
-            href="/cv/olatz-gonzalez-cv.pdf" // TODO: añade tu CV en /public/cv/
+            href="/cv/olatz-gonzalez-cv.pdf"
             download="Olatz-Gonzalez-CV.pdf"
             className={`${styles.cvBtn}`}
             aria-label="Descargar CV de Olatz González en formato PDF"
