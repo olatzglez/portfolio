@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450">
+  <rect width="800" height="450" fill="#ede9fe"/>
+  <rect x="60" y="60" width="680" height="330" rx="12" fill="#f5f3ff" stroke="#c4b5fd" stroke-width="2"/>
+  <rect x="60" y="60" width="680" height="60" rx="12" fill="#6d28d9"/>
+  <rect x="80" y="75" width="140" height="30" rx="4" fill="#a78bfa"/>
+  <rect x="550" y="72" width="80" height="36" rx="18" fill="#fff"/>
+  <rect x="80" y="140" width="420" height="220" rx="8" fill="#ddd6fe"/>
+  <circle cx="200" cy="220" r="20" fill="#6d28d9"/>
+  <circle cx="300" cy="190" r="15" fill="#a78bfa"/>
+  <circle cx="380" cy="240" r="18" fill="#6d28d9"/>
+  <rect x="520" y="140" width="200" height="100" rx="8" fill="#fff" stroke="#e4e0f5" stroke-width="1"/>
+  <rect x="540" y="158" width="160" height="14" rx="4" fill="#1a1826"/>
+  <rect x="540" y="180" width="120" height="10" rx="4" fill="#c4b5fd"/>
+  <rect x="540" y="198" width="140" height="10" rx="4" fill="#e4e0f5"/>
+  <rect x="520" y="254" width="200" height="100" rx="8" fill="#fff" stroke="#e4e0f5" stroke-width="1"/>
+  <rect x="540" y="272" width="160" height="14" rx="4" fill="#1a1826"/>
+  <rect x="540" y="294" width="120" height="10" rx="4" fill="#c4b5fd"/>
+  <text x="400" y="398" font-family="system-ui, sans-serif" font-size="14" text-anchor="middle" fill="#7c7490">Reemplaza con tu captura real · /public/img/sustraiapp.png</text>
+  <text x="400" y="416" font-family="system-ui, sans-serif" font-size="16" font-weight="700" text-anchor="middle" fill="#6d28d9">SustraiApp</text>
+</svg>
