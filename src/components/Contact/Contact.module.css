@@ -1,0 +1,121 @@
+.section {
+  /* fondo blanco */
+}
+
+.inner {
+  max-width: 640px;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--sp-10);
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--sp-4);
+}
+
+.title {
+  text-align: center;
+}
+
+.subtitle {
+  font-size: var(--text-lg);
+  color: var(--color-text-muted);
+  line-height: 1.7;
+  text-align: center;
+}
+
+/* Contact links */
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-3);
+  width: 100%;
+}
+
+.contactLink {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-4);
+  padding: var(--sp-4) var(--sp-6);
+  background: var(--color-bg-subtle);
+  border: 1px solid var(--color-border-subtle);
+  border-radius: var(--radius-lg);
+  min-height: 72px;
+  transition: all var(--ease-base);
+}
+
+.contactLink:hover,
+.contactLink:focus-visible {
+  border-color: var(--color-brand);
+  background: var(--color-brand-subtler);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+}
+
+.contactIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  background: var(--color-brand-subtle);
+  color: var(--color-brand);
+  border-radius: var(--radius-md);
+  flex-shrink: 0;
+}
+
+.contactText {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--sp-1);
+}
+
+.contactLabel {
+  font-size: var(--text-xs);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--color-brand);
+}
+
+.contactValue {
+  font-size: var(--text-base);
+  font-weight: 500;
+  color: var(--color-text);
+}
+
+/* CV button */
+.cvBtn {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--sp-2);
+  padding: var(--sp-4) var(--sp-10);
+  background: var(--color-brand);
+  color: #fff;
+  border-radius: var(--radius-full);
+  font-size: var(--text-base);
+  font-weight: 600;
+  min-height: 52px;
+  transition: all var(--ease-base);
+  box-shadow: 0 4px 14px color-mix(in srgb, var(--color-brand) 35%, transparent);
+}
+
+.cvBtn:hover,
+.cvBtn:focus-visible {
+  background: var(--color-brand-hover);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px color-mix(in srgb, var(--color-brand) 45%, transparent);
+}
+
+@media (max-width: 480px) {
+  .contactLink {
+    padding: var(--sp-3) var(--sp-4);
+  }
+}
