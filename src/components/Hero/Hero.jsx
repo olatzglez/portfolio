@@ -57,7 +57,7 @@ export default function Hero() {
         <p className={styles.tagline}>
           Diseño interfaces accesibles que también funcionan bien por dentro.
           <br className={styles.taglineBr} />
-          Basada en Bilbao, disponible para nuevos proyectos.
+          Resido en Bilbao, disponible para nuevos proyectos.
         </p>
 
         <nav aria-label="Redes sociales y contacto">
