@@ -1,0 +1,107 @@
+:root {
+  /* === COLORES === */
+  --color-bg: #ffffff;
+  --color-bg-subtle: #f8f7fd;
+  --color-surface: #ffffff;
+  --color-border: #e4e0f5;
+  --color-border-subtle: #f0edfb;
+
+  /* Texto — contraste verificado WCAG AA */
+  --color-text: #1a1826;        /* ~20:1 sobre blanco */
+  --color-text-muted: #4d4868;  /* ~8:1 sobre blanco */
+  --color-text-light: #7c7490;  /* solo decorativo/grande */
+
+  /* Marca lavanda */
+  --color-brand: #6d28d9;       /* ~7.2:1 sobre blanco — uso en texto/botones */
+  --color-brand-hover: #5b21b6;
+  --color-brand-light: #a78bfa; /* decorativo/gradientes */
+  --color-brand-subtle: #ede9fe;
+  --color-brand-subtler: #f5f3ff;
+
+  /* Gradientes */
+  --gradient-hero: radial-gradient(ellipse 90% 70% at 15% -5%, #ede9fe 0%, transparent 65%);
+  --gradient-accent: linear-gradient(135deg, #6d28d9 0%, #a78bfa 100%);
+
+  /* Foco accesible */
+  --color-focus: #6d28d9;
+  --focus-ring: 0 0 0 3px #fff, 0 0 0 5px #6d28d9;
+
+  /* === TIPOGRAFÍA === */
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+
+  --text-xs:   0.75rem;
+  --text-sm:   0.875rem;
+  --text-base: 1rem;
+  --text-lg:   1.125rem;
+  --text-xl:   1.25rem;
+  --text-2xl:  1.5rem;
+  --text-3xl:  1.875rem;
+  --text-4xl:  2.25rem;
+  --text-5xl:  3rem;
+  --text-6xl:  clamp(2.5rem, 6vw, 4.5rem);
+
+  /* === ESPACIADO === */
+  --sp-1:  0.25rem;
+  --sp-2:  0.5rem;
+  --sp-3:  0.75rem;
+  --sp-4:  1rem;
+  --sp-6:  1.5rem;
+  --sp-8:  2rem;
+  --sp-10: 2.5rem;
+  --sp-12: 3rem;
+  --sp-16: 4rem;
+  --sp-20: 5rem;
+  --sp-24: 6rem;
+  --sp-32: 8rem;
+
+  /* === LAYOUT === */
+  --max-width: 1100px;
+  --nav-height: 64px;
+
+  /* === BORDES === */
+  --radius-sm:   6px;
+  --radius-md:   12px;
+  --radius-lg:   20px;
+  --radius-xl:   28px;
+  --radius-full: 9999px;
+
+  /* === SOMBRAS === */
+  --shadow-sm: 0 1px 4px rgba(109, 40, 217, 0.07);
+  --shadow-md: 0 4px 18px rgba(109, 40, 217, 0.11);
+  --shadow-lg: 0 8px 36px rgba(109, 40, 217, 0.15);
+  --shadow-card: 0 2px 8px rgba(26, 24, 38, 0.06), 0 8px 24px rgba(109, 40, 217, 0.08);
+
+  /* === TRANSICIONES === */
+  --ease-fast:  150ms ease;
+  --ease-base:  250ms ease;
+  --ease-slow:  400ms ease;
+}
+
+/* === MODO OSCURO === */
+[data-theme="dark"] {
+  --color-bg: #0f0e17;
+  --color-bg-subtle: #17152a;
+  --color-surface: #1d1b30;
+  --color-border: #2e2b45;
+  --color-border-subtle: #252240;
+
+  --color-text: #eae6f8;        /* ~14:1 sobre bg oscuro */
+  --color-text-muted: #b0acc5;  /* ~7:1 */
+  --color-text-light: #7870a0;
+
+  --color-brand: #a78bfa;       /* ~7:1 sobre bg oscuro */
+  --color-brand-hover: #c4b5fd;
+  --color-brand-light: #c4b5fd;
+  --color-brand-subtle: #2d1b69;
+  --color-brand-subtler: #1e1540;
+
+  --gradient-hero: radial-gradient(ellipse 90% 70% at 15% -5%, #2d1b69 0%, transparent 65%);
+
+  --color-focus: #a78bfa;
+  --focus-ring: 0 0 0 3px #0f0e17, 0 0 0 5px #a78bfa;
+
+  --shadow-sm: 0 1px 4px rgba(0, 0, 0, 0.35);
+  --shadow-md: 0 4px 18px rgba(0, 0, 0, 0.45);
+  --shadow-lg: 0 8px 36px rgba(0, 0, 0, 0.55);
+  --shadow-card: 0 2px 8px rgba(0, 0, 0, 0.3), 0 8px 24px rgba(0, 0, 0, 0.4);
+}

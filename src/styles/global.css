@@ -1,0 +1,118 @@
+body {
+  font-family: var(--font-sans);
+  font-size: var(--text-base);
+  color: var(--color-text);
+  background-color: var(--color-bg);
+  transition: background-color var(--ease-slow), color var(--ease-slow);
+}
+
+/* === SKIP LINK (accesibilidad) === */
+.skip-link {
+  position: absolute;
+  top: -200%;
+  left: var(--sp-4);
+  padding: var(--sp-2) var(--sp-6);
+  background: var(--color-brand);
+  color: #fff;
+  font-weight: 600;
+  font-size: var(--text-sm);
+  border-radius: var(--radius-sm);
+  z-index: 9999;
+  transition: top var(--ease-fast);
+}
+
+.skip-link:focus {
+  top: var(--sp-4);
+}
+
+/* === FOCUS GLOBAL === */
+:focus-visible {
+  outline: none;
+  box-shadow: var(--focus-ring);
+  border-radius: var(--radius-sm);
+}
+
+/* === SECCIONES BASE === */
+.section {
+  padding: var(--sp-24) var(--sp-6);
+}
+
+.section-alt {
+  background-color: var(--color-bg-subtle);
+}
+
+.section-inner {
+  max-width: var(--max-width);
+  margin: 0 auto;
+}
+
+.section-header {
+  margin-bottom: var(--sp-12);
+}
+
+.section-label {
+  display: inline-block;
+  font-size: var(--text-xs);
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--color-brand);
+  margin-bottom: var(--sp-3);
+}
+
+.section-title {
+  font-size: var(--text-4xl);
+  font-weight: 700;
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+  color: var(--color-text);
+}
+
+/* === BOTONES === */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--sp-2);
+  padding: var(--sp-3) var(--sp-6);
+  border-radius: var(--radius-full);
+  font-size: var(--text-sm);
+  font-weight: 600;
+  transition: all var(--ease-base);
+  min-height: 44px; /* WCAG táctil mínimo */
+  white-space: nowrap;
+}
+
+.btn-primary {
+  background: var(--color-brand);
+  color: #fff;
+}
+
+.btn-primary:hover,
+.btn-primary:focus-visible {
+  background: var(--color-brand-hover);
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-md);
+}
+
+.btn-outline {
+  border: 1.5px solid var(--color-border);
+  color: var(--color-text-muted);
+  background: transparent;
+}
+
+.btn-outline:hover,
+.btn-outline:focus-visible {
+  border-color: var(--color-brand);
+  color: var(--color-brand);
+  background: var(--color-brand-subtler);
+}
+
+.btn-ghost {
+  color: var(--color-brand);
+  background: var(--color-brand-subtler);
+}
+
+.btn-ghost:hover,
+.btn-ghost:focus-visible {
+  background: var(--color-brand-subtle);
+}
