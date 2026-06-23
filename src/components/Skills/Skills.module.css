@@ -1,0 +1,61 @@
+.section {
+  /* background de section-alt en global.css */
+}
+
+.groups {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: var(--sp-8);
+}
+
+.group {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-4);
+}
+
+.groupTitle {
+  font-size: var(--text-base);
+  font-weight: 700;
+  color: var(--color-brand);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  padding-bottom: var(--sp-3);
+  border-bottom: 2px solid var(--color-brand-subtle);
+}
+
+.skillList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--sp-2);
+}
+
+.skill {
+  padding: var(--sp-2) var(--sp-3);
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-full);
+  font-size: var(--text-sm);
+  font-weight: 500;
+  color: var(--color-text-muted);
+  transition: all var(--ease-fast);
+}
+
+.skill:hover {
+  border-color: var(--color-brand-light);
+  color: var(--color-brand);
+  background: var(--color-brand-subtler);
+}
+
+@media (max-width: 600px) {
+  .groups {
+    grid-template-columns: 1fr 1fr;
+    gap: var(--sp-6);
+  }
+}
+
+@media (max-width: 400px) {
+  .groups {
+    grid-template-columns: 1fr;
+  }
+}
