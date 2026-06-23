@@ -18,7 +18,7 @@ export default function Contact() {
 
           <div className={styles.links}>
             <a
-              href="mailto:tu@email.com" // TODO: reemplaza con tu email real
+              href="olatzglez@gmail.com"
               className={styles.contactLink}
               aria-label="Enviar email a Olatz González"
             >
@@ -27,7 +27,7 @@ export default function Contact() {
               </span>
               <span className={styles.contactText}>
                 <span className={styles.contactLabel}>Email</span>
-                <span className={styles.contactValue}>tu@email.com</span>
+                <span className={styles.contactValue}>olatzglez@gmail.com</span>
               </span>
             </a>
 
