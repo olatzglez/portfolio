@@ -24,7 +24,7 @@ const SOCIAL_LINKS = [
     external: true,
   },
   {
-    href: 'mailto:tu@email.com', // TODO: reemplaza con tu email real
+    href: 'mailto:olatzglez@gmail.com',
     label: 'Enviar email a Olatz González',
     icon: <IconEmail />,
     text: 'Email',
